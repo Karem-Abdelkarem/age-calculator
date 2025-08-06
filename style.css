@@ -131,3 +131,13 @@
   /*font-weight: var(--font-weight-bold);*/
   color: var(--color-blue);
 }
+
+@media (max-width: 426px) {
+  .card {
+    margin: 20px 10px;
+  }
+
+  .card__result {
+    font-size: 25px;
+  }
+}
